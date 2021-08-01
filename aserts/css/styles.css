@@ -1,98 +1,32 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.Maindiv_profile {
-  padding: 30px;
-  text-align: center;
-}
-
-.ImgDivProfile_div {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 3px solid white;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.displayname {
-  margin: 5px;
-}
-
-.Maindiv_profile h3 {
-  margin: 5px;
-  color: #6c757d;
-}
-.Maindiv_span {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.Maindiv_profile .EmailColor a {
-    text-decoration: none;
-    color: #6c757d;
-}
-
-.Maindiv_profile span .Jaswanth {
-  color: green;
-}
-
-.Maindiv_profile .Jaswanth a {
-  text-decoration: none;
-}
-
-.Profile {
+.MyProfileImg img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.FacouriteApps{
-    margin-top: 0px;
-    text-align: center;
+
+.MyProfileImg {
+  margin-left: auto;
+  margin-right: auto;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
-.Table {
-    background-color: #e8edf1;
-    text-align: center !important;
-    font-weight: 600;
-    font-size: 22px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.favweb i {
+  font-size: 30px;
 }
 
-.Table table {
-    text-align: center;
+.favweb a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
 }
 
-.Table i {
-    font-size: 42px;
+.alertprimary{
+  background-color: #cfdbf3;
 }
 
-.tabletable {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.text-justify {
+  text-align: justify!important;
 }
-
-table h5 {
-    margin: 0px;
-    margin-top: 8px;
-    /* margin-top: 5px; */
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-table td { 
-    padding: 20px;
-}
-.tabletable a{
-    text-decoration: none;
-}
-
-
-/* table, th, td {
-border: 1px solid black;
-border-collapse: collapse;
-} */
