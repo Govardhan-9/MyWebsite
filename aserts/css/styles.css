@@ -1,32 +1,17 @@
-.MyProfileImg img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.Profile_Image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
 }
-
-.MyProfileImg {
-  margin-left: auto;
-  margin-right: auto;
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  overflow: hidden;
+.Profile_Image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
-
-.favweb i {
-  font-size: 30px;
-}
-
-.favweb a {
-  text-decoration: none;
-  color: black;
-  font-weight: 600;
-}
-
-.alertprimary{
-  background-color: #cfdbf3;
-}
-
-.text-justify {
-  text-align: justify!important;
+.Background{
+    background-color: aqua;
+    padding: 50px;
 }
